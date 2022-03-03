@@ -15,9 +15,9 @@ await page.goto('https://parceirohypera.com.br');
 
 await page.waitForSelector('input[name="usr"]');
 
-await page.type('input[name="usr"]', '15986565000167',{delay:100}); // Email
+await page.type('input[name="usr"]', '',{delay:100}); // Email
 
-await page.type('input[name="psw"]', 'plus2021', {delay:100}); // Senha
+await page.type('input[name="psw"]', '', {delay:100}); // Senha
 
 await page.keyboard.press('Enter');  // Clica no botão de login
 
